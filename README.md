@@ -29,10 +29,24 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+The Proptypes are used for validation. Its a good ideal, to analyze your data in Javascript to prevent issues breaks bugs and errors. Utility Tools like Flow and Typescript help with that. Also this is off the charts in a way but its helpful  Using tools, like Jest, Enzyme Mocha Jasmine is great to test your code so you can make sure everything is working.
+Proptypes are used in React, Another way instead of using Proptypes is using Typescript, Or Flow. 
+
+
 - [ ] Describe a life-cycle event in React?
+When you change your state.  componentWillUnmount() This is when the component is being unmounted. The old ways are constructor()
+static getDerivedStateFromProps() render() componentDidMount(). In the past they had old decrapted  and unsafe ways  for example  componentwillmount(). Then Redux is used for state management. MobX Vue in VUEX VUEX VUEX statemangment. Along with Graphql/Apollo.
+
+Hooks are the newestest thing thing.
+
 - [ ] Explain the details of a Higher Order Component?
+A High Order Component is, when you passa component function and  it returns a new component, which is called a High Order Component. Also it can be reused the logic.
+
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
-      
+You can style your components with Css style, Along with Using CSS frameworks like Bulma, tailwind Css,  Styled Components, Less, Sass, and inline styling.
+
+
 ## Project Setup
 
 Follow these steps to set up your project:
